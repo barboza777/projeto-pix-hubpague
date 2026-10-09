@@ -1,0 +1,6 @@
+[build]
+  publish = "dist"
+
+[build.environment]
+  # Netlify builds use Nitro's Netlify preset; standalone exports default to node-server.
+  NITRO_PRESET = "netlify"
